@@ -480,7 +480,5 @@ nav a {
 /* icons */
 
 .icon {
-    height: 12px;
-    width: 16px;
-    color: currentColor;
+    --color4: currentColor;
 }
