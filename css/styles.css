@@ -248,6 +248,7 @@ nav a {
 
 .contact-flex {
     display: flex;
+    align-items: center;
 }
 
 .contact-flex li:not(:last-child) {
