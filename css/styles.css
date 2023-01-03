@@ -261,13 +261,13 @@ nav a {
 }
 
 .contact-nav a {
+    display: flex;
     color: var(--secondary-text-color);
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    margin: 0;
 }
 
 .contact-nav li {
@@ -480,8 +480,20 @@ nav a {
 
 /* icons */
 
-.icon {
-    --color4: currentColor;
+.icon-envelope {
+    display: block;
     margin-right: 10px;
-    margin-bottom: 0;
+
+    width: 16px;
+    height: 12px;
+    --color4: currentColor;
+}
+
+.icon-smartphone {
+    display: block;
+    margin-right: 10px;
+    
+    width: 10px;
+    height: 16px;
+    --color4: currentColor;
 }
