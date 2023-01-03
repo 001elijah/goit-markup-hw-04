@@ -481,4 +481,5 @@ nav a {
 
 .icon {
     --color4: currentColor;
+    margin-right: 10px;
 }
