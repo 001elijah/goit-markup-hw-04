@@ -476,3 +476,11 @@ nav a {
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
+
+/* icons */
+
+.icon {
+    height: 12px;
+    width: 16px;
+    color: #757575;
+}
