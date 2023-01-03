@@ -482,5 +482,10 @@ nav a {
 .icon {
     height: 12px;
     width: 16px;
-    color: #757575;
+    color: currentColor;
+}
+
+.icon:hover,
+.icon:focus {
+    color: var(--accent-color)
 }
