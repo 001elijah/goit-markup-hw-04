@@ -267,6 +267,7 @@ nav a {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    margin: 0;
 }
 
 .contact-nav li {
@@ -482,4 +483,5 @@ nav a {
 .icon {
     --color4: currentColor;
     margin-right: 10px;
+    margin-bottom: 0;
 }
