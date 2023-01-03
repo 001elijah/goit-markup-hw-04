@@ -484,8 +484,3 @@ nav a {
     width: 16px;
     color: currentColor;
 }
-
-.icon:hover,
-.icon:focus {
-    color: var(--accent-color)
-}
