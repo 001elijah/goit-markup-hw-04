@@ -292,8 +292,26 @@ nav a {
     background-color: #C4C4C4;
     /* put text-align: center; into parent and all descendants will inherit centrical alignment */
     text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    /* padding-top: 200px; */
+    /* padding-bottom: 200px; */
+}
+
+.container-fluid {
+    height: 600px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+        ),
+        url(../images/hero-bg.jpg);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .hero .hero-title {
@@ -304,7 +322,7 @@ nav a {
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
-    margin-top: 0;
+    padding-top: 200px;
     margin-bottom: 30px;
 }
 
