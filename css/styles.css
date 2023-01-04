@@ -518,6 +518,7 @@ nav a {
 }
 
 .icon-pros {
+
     width: 270px;
     height: 120px;
     margin-bottom: 30px;
@@ -527,5 +528,6 @@ nav a {
 }
 
 .icon-pros svg {
-    
+    width: 70px;
+    height: 70px;
 }
