@@ -15,6 +15,7 @@
     --off-white-color: #F5F4FA;
     --white-text-color: #FFFFFF;
     --dark-background-color: #2F303A;
+    --hero-bg-color: #C4C4C4;
 }
 
 p,
@@ -289,7 +290,6 @@ nav a {
 /* hero */
 
 .hero {
-    background-color: #C4C4C4;
     /* put text-align: center; into parent and all descendants will inherit centrical alignment */
     text-align: center;
     /* padding-top: 200px; */
@@ -301,6 +301,8 @@ nav a {
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
+
+    background-color: var(--hero-bg-color);
 
     background-image: linear-gradient(
         to right,
