@@ -457,6 +457,24 @@ nav a {
     justify-content: space-between;
 }
 
+.card-customer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 170px;
+    height: 92px;
+
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    background-color: var(--white-text-color);
+}
+
+.card-csutomer a:hover,
+.card-csutomer a:focus {
+    --color3: var(--accent-color);
+}
+
 /* footer */
 .page-footer {
     background-color: var(--dark-background-color);
@@ -540,17 +558,4 @@ nav a {
 .icon-pros svg {
     width: 70px;
     height: 70px;
-}
-
-.icon-customer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 170px;
-    height: 92px;
-
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    background-color: var(--white-text-color);
 }
