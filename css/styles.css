@@ -450,6 +450,13 @@ nav a {
     letter-spacing: 0.03em;
 }
 
+/* our customers list */
+
+.customers {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* footer */
 .page-footer {
     background-color: var(--dark-background-color);
@@ -521,7 +528,7 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     width: 270px;
     height: 120px;
     margin-bottom: 30px;
@@ -533,4 +540,17 @@ nav a {
 .icon-pros svg {
     width: 70px;
     height: 70px;
+}
+
+.icon-customer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 170px;
+    height: 92px;
+
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    background-color: var(--white-text-color);
 }
