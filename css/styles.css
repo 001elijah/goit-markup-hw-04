@@ -610,9 +610,11 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     height: 28px;
     width: 28px;
+
+    color: var(--white-text-color);
 }
 
 .icon {
