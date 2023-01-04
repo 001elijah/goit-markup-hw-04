@@ -595,6 +595,7 @@ nav a {
 
 .socials {
     display: flex;
+    justify-content: space-between;
 }
 
 .social-bg {
@@ -615,10 +616,6 @@ nav a {
     width: 28px;
 
     color: var(--white-text-color);
-}
-
-.icon {
-    --color3: currentColor;
 }
 
 .social-bg:hover,
