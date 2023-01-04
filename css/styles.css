@@ -475,9 +475,8 @@ nav a {
     border-color: var(--accent-color);
 }
 
-.card-customer svg:hover,
-.card-customer svg:focus {
-    --color3: var(--accent-color);
+.card-customer svg {
+    --color3: currentColor;
 }
 
 /* footer */
