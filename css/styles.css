@@ -470,8 +470,13 @@ nav a {
     background-color: var(--white-text-color);
 }
 
-.card-csutomer a:hover,
-.card-csutomer a:focus {
+.card-customer:hover,
+.card-customer:focus {
+    border-color: var(--accent-color);
+}
+
+.card-customer svg:hover,
+.card-customer svg:focus {
     --color3: var(--accent-color);
 }
 
