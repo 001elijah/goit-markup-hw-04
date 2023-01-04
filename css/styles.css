@@ -538,6 +538,8 @@ nav a {
 }
 
 .footer-padding {
+
+    display: flex;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -577,4 +579,55 @@ nav a {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+}
+
+.social-header {
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--white-text-color);
+}
+
+.socials {
+    display: flex;
+}
+
+.social-bg {
+    margin: 0.25rem;
+    display: block;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--white-text-color);
+}
+
+.social-bg a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    width: 28px;
+}
+
+.icon {
+    --color3: currentColor;
+}
+
+.social-bg:hover,
+.social-bg:focus {
+    background-color: var(--accent-color);
+}
+
+.footer-contacts {
+    margin-right: 95px;
+}
+
+.footer-social {
+    margin-right: auto;
+    padding-top: 9px;
 }
