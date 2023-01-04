@@ -292,8 +292,6 @@ nav a {
 .hero {
     /* put text-align: center; into parent and all descendants will inherit centrical alignment */
     text-align: center;
-    /* padding-top: 200px; */
-    /* padding-bottom: 200px; */
 }
 
 .container-fluid {
