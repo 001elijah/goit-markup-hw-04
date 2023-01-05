@@ -225,7 +225,7 @@ nav a {
 }
 
 .icon {
-    color: currentColor;
+    --color3: currentColor;
 }
 
 .employee-social-bg:hover,
