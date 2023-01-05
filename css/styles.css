@@ -199,6 +199,10 @@ nav a {
 
 .employee-socials {
     display: flex;
+    justify-content: space-between;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 16px;
 }
 
 .employee-social-bg {
