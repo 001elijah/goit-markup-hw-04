@@ -197,6 +197,42 @@ nav a {
     text-align: center;
 }
 
+.employee-socials {
+    display: flex;
+}
+
+.employee-social-bg {
+    /* margin: 0.25rem; */
+    /* display: block; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: inherit;
+    color: #afb1b8;
+
+    height: 44px;
+    width: 44px;
+
+    /* color: #afb1b8; */
+}
+
+.icon {
+    color: currentColor;
+}
+
+.employee-social-bg:hover,
+.employee-social-bg:focus {
+    background-color: var(--accent-color);
+    color: var(--white-text-color)
+}
+
+
+/* portfolio page filter */
+
 .filter-list {
     display: flex;
     justify-content: center;
